@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+.next/
+out/
+
+# Environment files
+.env.local
+.env*.local
+
+# Helper scripts (temporary)
+setup.command
+find_node.command
+full_setup.command
+
+# macOS
+.DS_Store
