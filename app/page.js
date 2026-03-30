@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 
-const WATCHLIST = ['AAPL','TSLA','NVDA','AMD','SPY','QQQ','AMZN','META','MSFT','GOOGL'];
+const WATCHLIST = ['SWN','CLNE','BTU','NVAX','ADMA','AMRN','KGC','HL','AG','KTOS','SWBI','MRTN','ATSG','DENN','ARCO'];
 
 export default function Dashboard() {
   const [botRunning, setBotRunning] = useState(false);
@@ -140,7 +140,7 @@ export default function Dashboard() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 12, fontSize: 13, marginBottom: 14 }}>
             <div><span style={{ color: '#6b6b6b' }}>Buy trigger: </span>Price above 9-bar MA + volume 1.5× avg</div>
             <div><span style={{ color: '#6b6b6b' }}>Sell trigger: </span>+2% profit target or −1% stop loss</div>
-            <div><span style={{ color: '#6b6b6b' }}>Max positions: </span>3 concurrent, 10% portfolio each</div>
+            <div><span style={{ color: '#6b6b6b' }}>Max positions: </span>4 concurrent, 20% portfolio each</div>
           </div>
           <div style={{ fontSize: 12, color: '#6b6b6b', marginBottom: 14 }}>
             Watchlist: {WATCHLIST.join(' · ')}
