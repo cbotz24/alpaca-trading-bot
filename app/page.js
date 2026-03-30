@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 
-const WATCHLIST = ['SWN','CLNE','BTU','NVAX','ADMA','AMRN','KGC','HL','AG','KTOS','SWBI','MRTN','ATSG','DENN','ARCO'];
+const WATCHLIST = ['SWN','CLNE','BTU','NVAX','ADMA','AMRN','KGC','HL','AG','KTOS','SWBI','MRTN','ATSG','DENN','ARCO','SOUN','IONQ','ARLO','CRSR'];
 
 export default function Dashboard() {
   const [botRunning, setBotRunning] = useState(false);
